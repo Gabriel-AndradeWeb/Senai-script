@@ -1,4 +1,5 @@
-var nome = 'Gabriel'
-var idade = 50;
+var nome = "Gabriel";
+var sobre = "Andrade";
+var soma = nome+" "+sobre
 
-console.log("Meu nome é "+nome+" "+"minha idade é "+idade);
+console.log(soma)

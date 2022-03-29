@@ -1,11 +1,6 @@
-const quantidadedealunos = 14
+const numero = 10
 
-for( let x = 0; x <= quantidadedealunos; x++)
-   
-if ( x == 0){
-    console.log("numero zero ");
-} else if ( x % 2 == 0){
-    console.log("o numero par: "+ x)
-} else {
-    console.log ("o numero é impar "+ x)
+for (let index = 1; index <= numero; index++){
+    console.log(index)
 }
+
