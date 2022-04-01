@@ -19,7 +19,7 @@ if( datadovento <= 20 ){
     console.log("idade valida")
 }else if( idade < 18){
     console.log("idade invalida")
-}if ( quantidadepessoas <= 100){
+}if ( quantidadepessoas <= 100 & idade >= 18){
     console.log("cadastro do evendo finalizado")
 }else{
     console.log("não foi possivel fazer o cadastro")
